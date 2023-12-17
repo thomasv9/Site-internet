@@ -1,0 +1,30 @@
+h1
+{
+color: dimgrey;
+}
+
+body
+{
+   background-color: grey;
+}
+
+#voitures
+{
+    width: 800px;
+    margin:0 auto;
+    background-color: slategray;
+    text-align: center;
+    align-content: center;
+
+}
+
+@media screen and (max-width: 1100px) {
+    header, main, footer {
+        padding: 10px;
+    }
+}
+
+ul li 
+{
+    list-style-type: none;
+}
